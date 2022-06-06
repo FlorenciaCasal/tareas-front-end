@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+body {
+    font-family: 'Joan', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.pie {
+    background-position-x: center;
+}
+
+h1 {
+    background-color: lightslategray;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 9px;
+
+}
+
+h2 {
+    background-color: lightslategray;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.mas-sobre-mi, .curriculum-vitae {
+    font-style: italic;
+    font-weight: 600;
+}
+.pie {
+    background-color: #9CDFFF; 
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+}
