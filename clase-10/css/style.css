@@ -17,8 +17,9 @@ body {
 }
 
 .contenedor1 {
-    display: inline-block;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     width: 1024px;
     height: 139px;
 }
@@ -82,12 +83,13 @@ body {
     height: 500px;    
 }
 
-.img-batman, .img-chica {
+main div article img {
     display: inline-block;
     position: absolute;
     bottom: 250px;
     right: 90px;
-    border-radius: 30px;
+    
+    border-radius: 50%;
     
 }
 
@@ -124,7 +126,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;text-align: justify;
 }
-span {
+article span {
     display: inline-block;
     position: absolute;
     bottom: 20px;
@@ -133,6 +135,8 @@ span {
     color: white;
     font-size: 12px;
     padding: 15px 30px;
+    border-bottom: solid 2px lightgray;
+    
     
 
 }
@@ -145,4 +149,5 @@ footer {
     padding-bottom: 10px;
     bottom: 0px;
     font-size: 12px;
+    
 }
